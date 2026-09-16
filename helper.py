@@ -1,7 +1,7 @@
-Tekst = "Header"
-Lengte = len(Tekst) + 4
-print ()
-print (Lengte * "*")
-print (f"* {Tekst} *")
-print (Lengte * "*")
-print ()
+def decoreer (tekst="") :
+    Lengte = len(tekst) + 4
+    print ()
+    print (Lengte * "*")
+    print (f"* {tekst} *")
+    print (Lengte * "*")
+    print ()
